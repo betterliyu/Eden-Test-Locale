@@ -2,10 +2,6 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -17,15 +13,25 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices.md"
+        ],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
         ]
       }
     ],
+    "dest": "Eden-Test-Locale",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/Eden-Test-Locale/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None"
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
     "resource": [
       {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -33,19 +39,13 @@
           "_themes.pdf/**",
           "**/docfx.json",
           "_repo.en-us/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/Eden-Test-Locale/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "Eden-Test-Locale",
-    "markdownEngineName": "markdig"
+    "template": []
   }
 }
